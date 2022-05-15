@@ -28,8 +28,9 @@ else{
   else  if(g>=60){
         document.getElementById('value2').innerHTML=`  you are a below average student`;
     }
-    else
+    else {
         document.getElementById('value2').innerHTML=`your percentage is less than 60`;
+    }
 }
 
 }
