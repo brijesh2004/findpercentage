@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: rgb(90, 255, 249);
+    box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+#value1{
+    color: red;
+}
+input{
+    width:30vw;
+}
+.btn{
+    background-color: rgb(6, 54, 244);
+    color: white;
+    cursor: pointer;
+    width: 70px;
+}
+.input{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: gold;
+    width:60%;
+    margin-left: 15%;
+    border: 2px solid red;
+    box-shadow: 10px 10px 10px yellow
+
+}
+#input1,#input2,#input3,#input4,#input5{
+    margin: 20px;
+    font-size: 20px;
+}
