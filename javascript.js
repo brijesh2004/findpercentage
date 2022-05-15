@@ -19,15 +19,17 @@ else{
     if(g>=90){
         document.getElementById('value2').innerHTML=` Wow awesome you are excellance`;
     }
-    if(g>=80){
+   else if(g>=80){
         document.getElementById('value2').innerHTML=` awesome your percentage are good`;
     }
-    if(g>=70){
+   else if(g>=70){
         document.getElementById('value2').innerHTML=` you are a average student`;
     }
-    if(g>=60){
+  else  if(g>=60){
         document.getElementById('value2').innerHTML=`  you are a below average student`;
     }
+    else
+        document.getElementById('value2').innerHTML=`your percentage is less than 60`;
 }
 
 }
